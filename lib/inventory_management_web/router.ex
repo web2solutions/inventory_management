@@ -7,6 +7,9 @@ defmodule InventoryManagementWeb.Router do
 
   scope "/api", InventoryManagementWeb do
     pipe_through :api
+
+    get "/", WelcomeController, :index
+    # path, cotroller, action
   end
 
   # Enables LiveDashboard only for development
