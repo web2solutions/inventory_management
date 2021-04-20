@@ -26,6 +26,8 @@ defmodule InventoryManagement.Welcomer do
 
     # age = params["age"] |> String.to_integer()
     age = String.to_integer(age)
+
+    IO.inspect(age)
     # name =
     #   params["name"]
     #   |> String.trim()
