@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :inventory_management, InventoryManagement.Repo,
   username: "postgres",
-  password: "t3z9q5h3",
+  password: "xxx",
   database: "inventory_management_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
